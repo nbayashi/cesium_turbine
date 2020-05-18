@@ -16,7 +16,7 @@ viewer.scene.globe.depthTestAgainstTerrain = true;
 
 var positions = [
   {
-    pos: Cesium.Cartesian3.fromDegrees(131.255035,32.621449,50),
+    pos: Cesium.Cartesian3.fromDegrees(131.255035,32.621449,50000),
     converter: Cesium.Transforms.eastNorthUpToFixedFrame,
     comments: "T1",
    },
