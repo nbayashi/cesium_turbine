@@ -66,6 +66,6 @@ var frontView = {
 
 
 viewer.scene.camera.setView({
-  destination: entity,
+  destination: frontView.destination,
   orientation: frontView.orientation,
 });
