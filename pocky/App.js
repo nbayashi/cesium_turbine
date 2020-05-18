@@ -16,7 +16,7 @@ viewer.scene.globe.depthTestAgainstTerrain = true;
 
 var positions = [
   {
-    pos: Cesium.Cartesian3.fromDegrees(131.255035,32.621449,0),
+    pos: Cesium.Cartesian3.fromDegrees(131.255035,32.621449,50),
     converter: Cesium.Transforms.eastNorthUpToFixedFrame,
     comments: "T1",
    },
@@ -41,7 +41,7 @@ var hpr = new Cesium.HeadingPitchRoll(heading, pitch, roll);
 ),
       model:{
         uri:"pocky_choco1.gltf",
-        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+        heightReference: Cesium.HeightReference.RELATIVE_TO_GROUND,
         minimumPixelSize: 50,
         maximumScale:200,
         scale:1000000.0,
