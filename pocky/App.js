@@ -41,7 +41,7 @@ var hpr = new Cesium.HeadingPitchRoll(heading, pitch, roll);
 ),
       model:{
         uri:"pocky_choco1.gltf",
-        heightReference: Cesium.HeightReference.RELATIVE_TO_GROUND,
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
         minimumPixelSize: 50,
         maximumScale:200,
         scale:1000000.0,
